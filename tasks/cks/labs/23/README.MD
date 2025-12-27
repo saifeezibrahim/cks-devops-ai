@@ -1,0 +1,6 @@
+|       **23**        | **Set tls version and allowed ciphers for etcd, kube-api**                                                                                                                                                                                                                                               |
+|:-------------------:|:REDACTEDREDACTEDREDACTED|
+|     Task weight     | 6%                                                                                                                                                                                                                                                                                                       |
+|       Cluster       | default                                                                                                                                                                                                                                                                                                  |
+| Acceptance criteria | **kube-api**:<br/>&nbsp;&nbsp;- tls cipher=`REDACTED,REDACTED`<br/>&nbsp;&nbsp;- tls min version 1.3<br/><br/>**etcd**:<br/>&nbsp;&nbsp;- tls cipher = `REDACTED,REDACTED`<br/><br/> |
+---
